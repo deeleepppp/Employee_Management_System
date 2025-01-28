@@ -2,12 +2,19 @@
 *{
   color: #fff;
 }
-*::-webkit-scrollbar{
+/* *::-webkit-scrollbar{
   display: none;
-}
+} */
 body{
   background-color: #111;
 }
-#tasklist::-webkit-scrollbar{
-display: none;
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#21d4fd, #b721ff);
+  border-radius: 100px;
 }

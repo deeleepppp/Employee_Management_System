@@ -5,7 +5,6 @@ function Login({handleLogin}) {
   const submitHandler = (event) => {
     event.preventDefault();
     handleLogin(form.email,form.password)
-    console.log(form);
     setForm({ email: "", password: "" });
   };
 
