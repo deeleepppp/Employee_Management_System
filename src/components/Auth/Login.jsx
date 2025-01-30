@@ -23,7 +23,7 @@ function Login({handleLogin}) {
               setForm({ ...form, email: event.target.value });
             }}
             required
-            className="rounded-full border-2 border-emerald-600 py-3 px-5 font-medium text-lg text-black outline-none placeholder:text-gray-400 w-full"
+            className="rounded-full border-2 border-emerald-600 py-3 px-5 font-medium text-lg text-white outline-none placeholder:text-gray-400 w-full"
             type="email"
             placeholder="Enter your email"
           />
@@ -33,7 +33,7 @@ function Login({handleLogin}) {
               setForm({ ...form, password: event.target.value });
             }}
             required
-            className="rounded-full border-2 border-emerald-600 py-3 px-5 font-medium text-lg text-black outline-none placeholder:text-gray-400 mt-3 w-full"
+            className="rounded-full border-2 border-emerald-600 py-3 px-5 font-medium text-lg text-white outline-none placeholder:text-gray-400 mt-3 w-full"
             type="password"
             placeholder="Enter password"
           />
